@@ -1,6 +1,6 @@
 :root{
-    --main-color: skyblue;
-    --bg-color: red;
+    --main-color: rgb(255, 0, 170);
+    --bg-color: rgb(255, 255, 255);
   }
   
   .container{
@@ -16,9 +16,8 @@
   
   .nav{
     grid-area: nav;
-    padding: 100px;
     background-color: var(--bg-color);
-    text-align: center;
+    background-color: rgb(253, 2, 128);
   }
   
   .main{
@@ -48,6 +47,28 @@
     background-color: var(--main-color);
     text-align: center;
   }
+
+
+ul{
+    list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow:hidden;
+}
+
+
+li{
+    float:left
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(255, 0, 149);
+}
+
+
+
   
   @media only screen and (max-width: 600px){
     .container{
@@ -56,4 +77,4 @@
       "main" 
       "side"
       "bottom_l"
-      "bottom_r"
+      "bottom_r" 
